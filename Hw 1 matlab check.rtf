@@ -1,0 +1,53 @@
+
+\f0\fs24 \cf0 A=[2 1 1;4 0 -2;2 2 3]\
+\
+A =\
+\
+     2     1     1\
+     4     0    -2\
+     2     2     3\
+\
+>> eig(A)\
+\
+ans =\
+\
+    4.0000\
+   -0.0000\
+    1.0000\
+\
+>> rank(A)\
+\
+ans =\
+\
+     2\
+\
+>> det(A)\
+\
+ans =\
+\
+     0\
+\
+>> inv(A)\
+Warning: Matrix is singular to working precision. \
+ \
+\
+ans =\
+\
+   Inf   Inf   Inf\
+   Inf   Inf   Inf\
+   Inf   Inf   Inf\
+\
+>> B=A(2:3,1:2)\
+\
+B =\
+\
+     4     0\
+     2     2\
+\
+>> inv(B)\
+\
+ans =\
+\
+    0.2500         0\
+   -0.2500    0.5000\
+}
